@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <title>QnA글쓰기</title>
+  </head>
+
+   <body>
+
+  <div class="jumbotron-fluid" style="background: #323C73">
+    <div class="container" style="background: #323C73">
+     <h1><b><i><center>
+      <font size="9em">
+          <font color=white>READY FOR SEOUL</font>
+      </font>
+     </center></i></b></h1>
+
+    </div>
+  </div>
+
+   <div class="row justify-content-md-center">
+                <div class="shop" style="height:auto; width: 6%; border:1px solid black;"><center><b>SHOP</b></div>
+                <div class="Q&A" style="height: auto; width: 6%; border:1px solid black; margin-left:100px"><center><b>QnA</b></div>
+    </div>
+
+
+   <hr align="center" style="border:solid 0.5px black; width: 99%">
+
+    <div class="container">
+      <h2>QnA</h2>
+      <hr align="center" style="border:solid 0.5px black; width: 99%">
+      <form action="/action_page.php">
+        <div class="form-group">
+      <label for="usr">제목:</label>
+      <input type="text" class="form-control" id="usr" name="name">
+    </div>
+        <div class="form-group">
+          <label for="comment">문의 내용:</label>
+          <textarea class="form-control" rows="10" id="comment" name="text"></textarea>
+        </div>
+
+        <h6>첨부 파일:</h6><input type="file" name='upload' id='upload' multiple='multiple'/>
+
+
+
+        <center><button type="submit" class="btn btn-Darky">등록하기</button>
+        <button type="submit" class="btn btn-Dark">취소하기</button></center>
+      </form>
+    </div>
+
+
+    <div class="jumbotron-fruid" style="margin-top:100px; background: #323C73">
+      <div class="container" style="background: #323C73">
+       <h1><b><i><center>
+        <font size="6em">
+            <font color=pink>READY</font><font color=skyblue>FOR</font><font color=white>SEOUL</font>
+            <br><font size="4em" color=white>Web ver 1.0</font>
+        </font>
+       </center></i></b></h1>
+
+      </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+ </body>
